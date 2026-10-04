@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="ShloK's responsive personal portfolio">
+    <title>ShloK | Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header" id="top">
+        <div class="container nav-wrap">
+            <a class="brand" href="#top">ShloK<span>.</span></a>
+            <nav aria-label="Primary navigation">
+                <ul class="nav-list">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <p class="eyebrow">WEB DEVELOPMENT • HTML • CSS</p>
+                    <h1>Building clear, accessible, and responsive web experiences.</h1>
+                    <p class="hero-text">
+                        I am a web development learner focused on semantic structure,
+                        thoughtful interfaces, and practical front-end solutions.
+                    </p>
+                    <div class="hero-actions">
+                        <a class="button primary" href="#projects">View Projects</a>
+                        <a class="button secondary" href="#contact">Contact Me</a>
+                    </div>
+                </div>
+                <div class="profile-card">
+                    <img src="assets/image.png" alt="ShloK profile graphic">
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="about">
+            <div class="container">
+                <p class="section-label">01 — About</p>
+                <h2>About Me</h2>
+                <div class="about-grid">
+                    <div>
+                        <p>
+                            I enjoy turning ideas into structured digital experiences.
+                            My current focus is strengthening HTML, CSS, responsive design,
+                            accessibility, and Git-based development workflows.
+                        </p>
+                        <p>
+                            I value simple information architecture, readable code, and
+                            interfaces that remain useful across different screen sizes.
+                        </p>
+                    </div>
+                    <aside class="highlight">
+                        <strong>Current focus</strong>
+                        <p>Responsive layouts, accessible forms, semantic HTML5, and clean CSS architecture.</p>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <section class="section alt" id="skills">
+            <div class="container">
+                <p class="section-label">02 — Skills</p>
+                <h2>Technical Skills</h2>
+                <dl class="skills-grid">
+                    <div><dt>HTML5</dt><dd>Semantic structure and accessible document organization.</dd></div>
+                    <div><dt>CSS3</dt><dd>Flexbox, Grid, responsive layouts, and reusable styling patterns.</dd></div>
+                    <div><dt>JavaScript</dt><dd>Client-side programming fundamentals and interactive web concepts.</dd></div>
+                    <div><dt>Git & GitHub</dt><dd>Repositories, commits, branches, and project publishing workflows.</dd></div>
+                </dl>
+            </div>
+        </section>
+
+        <section class="section" id="projects">
+            <div class="container">
+                <p class="section-label">03 — Projects</p>
+                <h2>Selected Projects</h2>
+                <div class="project-grid">
+                    <article class="project-card">
+                        <span class="project-number">01</span>
+                        <h3>Semantic Portfolio</h3>
+                        <p>
+                            A semantic HTML5 portfolio created with meaningful page structure,
+                            accessible navigation, a skills definition list, and an accessible contact form.
+                        </p>
+                        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">View repository →</a>
+                    </article>
+                    <article class="project-card">
+                        <span class="project-number">02</span>
+                        <h3>Responsive Landing Page</h3>
+                        <p>
+                            A responsive interface demonstrating CSS Grid, flexible spacing,
+                            mobile breakpoints, consistent typography, and reusable components.
+                        </p>
+                        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">View repository →</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section contact-section" id="contact">
+            <div class="container contact-grid">
+                <div>
+                    <p class="section-label">04 — Contact</p>
+                    <h2>Let's work on something useful.</h2>
+                    <p>Have a project idea, feedback, or a question? Send a message.</p>
+                </div>
+                <form class="contact-form" action="#" method="post">
+                    <div class="form-row">
+                        <label for="name">Name</label>
+                        <input id="name" name="name" type="text" autocomplete="name" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email" autocomplete="email" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                    </div>
+                    <button class="button primary" type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-wrap">
+            <p>© 2026 ShloK. Built with semantic HTML5 and CSS3.</p>
+            <a href="#top">Back to top ↑</a>
+        </div>
+    </footer>
+</body>
+</html>
